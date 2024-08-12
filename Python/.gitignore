@@ -1,0 +1,17 @@
+# Ignore the virtual environment directory
+Pipfile.lock
+.env
+
+# Ignore the virtual environment folder (if created)
+# This is the default location for Pipenv environments
+# You can specify the actual path if different
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore other common Python files
+*.egg-info/
+dist/
+build/
+*.egg
