@@ -8,16 +8,17 @@ student = {"name":"John","age":"45" , "courses":[
  "age":22
  }
 }
-my_friend = student.get("friend")
+my_friend = student.get("fr iend")
 for key,value in student.items():
     if type(value == int):
         print(value , value)
     else:
         print(key,value)
    
-  
-     
 
+with open("/Python/Carriculumn.txt") as file:
+    print(file.readline())
+    
 
 
 
